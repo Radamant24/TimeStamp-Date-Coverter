@@ -1,27 +1,23 @@
-Welcome to the Glitch BETA
+2-way TimeStamp/date Converter Microservice
 =========================
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+This is the microservice that I made for Free Code Camp challenge.
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
-
-
-Your Project
-------------
-
-On the front-end,
-- edit `public/client.js`, `public/style.css` and `views/index.html`
-- drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
+Usage
+-------
 
 
-Made by [Fog Creek](https://fogcreek.com/)
+User Story: I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).
+
+User Story: If it does, it returns both the Unix timestamp and the natural language form of that date.
+
+User Story: If it does not contain a date or Unix timestamp, it returns null for those properties.
+
+link: https://timestamp-date-converter.glitch.me/
+
+
+
+Made by Alejandro Gallarati (https://github.com/Radamant24)
 -------------------
 
-\ ゜o゜)ノ
+
